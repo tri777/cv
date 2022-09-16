@@ -1,0 +1,195 @@
+/* CSS for index.html */
+/* Element Selectors */
+body {
+    margin: 0;
+    text-align: center;
+}
+
+hr {
+    border: dashed gray 5px;
+    border-bottom: none;
+    width: 50%;
+    margin: 80px auto 80px auto;
+}
+
+li {
+    list-style-type: none;
+    line-height: 2em;
+    margin-inline-start: 3%;
+}
+
+dd, dt {
+    line-height: 2em;
+    margin-inline-start: 0;
+}
+
+h2, h3 {
+    color: #B22222;
+}
+
+a:link {
+    color: #B22222;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: #DC143C;
+    text-decoration: underline;
+}
+
+/* Class Selectors */
+/* CSS for top div */
+.top {
+
+}
+
+.background-pic {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.comet-pic {
+    width: 15%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.planet-pic {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.name {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1;
+    font-size: 5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.description {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1;
+    font-size: 2em;
+    font-family: 'Aladin', cursive;
+}
+
+/* CSS for middle div */
+.middle {
+    padding: 100px 0;
+}
+
+.my-pic {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.greetings {
+    font-size: 2em;
+}
+
+.langs-pic {
+    width: 12%;
+}
+
+.langs-box-column-left {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+}
+
+.langs-box-column-right {
+    width: 50%;
+    text-align: left;
+    float: right;
+}
+
+.leadnexp-box-column-left {
+    width: 33%;
+    float: left;
+    text-align: right;
+}
+
+.leadnexp-box-column-middle {
+    display: inline-block;
+    width: 34%;
+}
+
+.leadnexp-box-column-right {
+    width: 33%;
+    float: right;
+    text-align: left;
+}
+
+.leadnexp-pic {
+    width: 15%;
+}
+
+.skills-pic {
+    width: 20%;
+}
+
+.skills-box-column-left {
+    width: 33%;
+    float: left;
+    text-align: right;
+}
+
+.skills-box-column-middle {
+    display: inline-block;
+    width: 34%;
+}
+
+.skills-box-column-right {
+    width: 33%;
+    float: right;
+    text-align: left;
+}
+
+.get-in-touch {
+    display: inline-block;
+    border: solid 2px;
+    border-color: #B22222;
+    padding: 10px;
+}
+
+/* CSS for bottom div */
+.bottom {
+    background-color: #A1B57D;
+    padding: 30px 0;
+}
+
+/* CSS fo Contact.html*/
+.contact_me {
+    color: #B22222;
+    font-family: 'Dancing Script', cursive;
+}
+
+.contact_info_column_left {
+    float: left;
+    width: 45%;
+    text-align: right;
+}
+
+.contact_info_column_right {
+    display: inline-block;
+    width: 54%;
+    text-align: left;
+}
+
+.submit_button {
+    position: relative;
+    top: 30px;
+}
